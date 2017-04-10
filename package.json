@@ -16,8 +16,8 @@
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/lxsameer/franky/blob/master/LICENSE-MIT"
+      "type": "GPLv2",
+      "url": "https://github.com/lxsameer/franky/blob/master/LICENSE"
     }
   ],
   "keywords": [
@@ -36,10 +36,14 @@
     "test": "mocha -R test"
   },
   "dependencies": {
+    "chrome-remote-interface": "^0.18.0",
+    "immutable": "^3.8.1",
     "minimist": "~0.0.8",
+    "node-yaml": "^3.0.3",
     "verbalize": "~0.1.1"
   },
   "devDependencies": {
+    "jslint": "^0.10.3",
     "verb": "~0.2.0"
   }
 }
