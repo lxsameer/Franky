@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const path   = require('path');
-const argv   = require('minimist')(process.argv.slice(2));
+const path    = require('path');
+const argv    = require('minimist')(process.argv.slice(2));
 
 const franky = require('../lib/franky');
 const logger = require('../lib/logger');
@@ -20,5 +20,4 @@ if (!file) {
 /**
  * Application
  */
-logger.info("Cyborg franky is raising...");
 franky.start(file);
